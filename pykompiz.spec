@@ -1,6 +1,6 @@
 Summary:	pyKompiz - a manager application for Compiz in KDE
 Summary(de):	pyKompiz - in Aplikations Menager für Compiz in KDE
-Summary(pl):	pyKompiz - mened¿er aplikacji dla Compiza w KDE
+Summary(pl):	pyKompiz - zarz±dca aplikacji dla Compiza w KDE
 Name:		pykompiz
 Version:	0.1.3
 Release:	0.1
@@ -29,7 +29,15 @@ Compiz Debian packages. Features:
 pyKompiz ist ein Aplikations Menager für Compiz in KDE.
 
 %description -l pl
-pyKompiz jest mened¿erem aplikacji dla Compiza w KDE.
+pyKompiz jest zarz±dc± aplikacji dla Compiza w KDE. Jest podobny do
+skryptu Pythona (z którego zreszt± siê wywodzi) rozprowadzanego z
+niektórymi pakietami Compiz z Debiana. Mo¿liwo¶ci:
+
+- prze³±czanie miêdzy Kwin a Compizem dla ¼le dzia³aj±cych aplikacji
+- wywo³ywanie narzêdzia gset-compiz do konfigurowania Compiza
+- programowalne (DCOP) prze³±czanie zarz±dców okien
+- DCOP: funkcje zawieszenia i przywrócenia - szczegó³y w dokumentacji
+- pamiêtanie ostatniego aktywnego zarz±dcy okien miêdzy sesjami
 
 %prep
 %setup -q
@@ -49,4 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/*
 %{_iconsdir}/*/*/apps/*.png
-%{_datadir}/%{name}/*
+%{_datadir}/%{name}
