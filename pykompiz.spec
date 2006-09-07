@@ -1,5 +1,5 @@
 Summary:	pyKompiz - a manager application for Compiz in KDE
-Summary(de):	pyKompiz - in Aplikations Menager für Compiz in KDE
+Summary(de):	pyKompiz - ein Aplikations Menager für Compiz in KDE
 Summary(pl):	pyKompiz - zarz±dca aplikacji dla Compiza w KDE
 Name:		pykompiz
 Version:	0.1.3
