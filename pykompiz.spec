@@ -1,6 +1,6 @@
 Summary:	pyKompiz - a manager application for Compiz in KDE
-Summary(de):	pyKompiz - ein Aplikations Menager für Compiz in KDE
-Summary(pl):	pyKompiz - zarz±dca aplikacji dla Compiza w KDE
+Summary(de.UTF-8):   pyKompiz - ein Aplikations Menager fÃ¼r Compiz in KDE
+Summary(pl.UTF-8):   pyKompiz - zarzÄ…dca aplikacji dla Compiza w KDE
 Name:		pykompiz
 Version:	0.1.3
 Release:	0.1
@@ -25,19 +25,19 @@ Compiz Debian packages. Features:
   details.
 - remembers last active WM across sessions.
 
-%description -l de
-pyKompiz ist ein Aplikations Menager für Compiz in KDE.
+%description -l de.UTF-8
+pyKompiz ist ein Aplikations Menager fÃ¼r Compiz in KDE.
 
-%description -l pl
-pyKompiz jest zarz±dc± aplikacji dla Compiza w KDE. Jest podobny do
-skryptu Pythona (z którego zreszt± siê wywodzi) rozprowadzanego z
-niektórymi pakietami Compiz z Debiana. Mo¿liwo¶ci:
+%description -l pl.UTF-8
+pyKompiz jest zarzÄ…dcÄ… aplikacji dla Compiza w KDE. Jest podobny do
+skryptu Pythona (z ktÃ³rego zresztÄ… siÄ™ wywodzi) rozprowadzanego z
+niektÃ³rymi pakietami Compiz z Debiana. MoÅ¼liwoÅ›ci:
 
-- prze³±czanie miêdzy Kwin a Compizem dla ¼le dzia³aj±cych aplikacji
-- wywo³ywanie narzêdzia gset-compiz do konfigurowania Compiza
-- programowalne (DCOP) prze³±czanie zarz±dców okien
-- DCOP: funkcje zawieszenia i przywrócenia - szczegó³y w dokumentacji
-- pamiêtanie ostatniego aktywnego zarz±dcy okien miêdzy sesjami
+- przeÅ‚Ä…czanie miÄ™dzy Kwin a Compizem dla Åºle dziaÅ‚ajÄ…cych aplikacji
+- wywoÅ‚ywanie narzÄ™dzia gset-compiz do konfigurowania Compiza
+- programowalne (DCOP) przeÅ‚Ä…czanie zarzÄ…dcÃ³w okien
+- DCOP: funkcje zawieszenia i przywrÃ³cenia - szczegÃ³Å‚y w dokumentacji
+- pamiÄ™tanie ostatniego aktywnego zarzÄ…dcy okien miÄ™dzy sesjami
 
 %prep
 %setup -q
